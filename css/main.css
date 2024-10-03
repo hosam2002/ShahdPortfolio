@@ -301,6 +301,11 @@ footer {
   padding: 5rem;
   border-top: 1px solid #E5E7EB;
 }
+@media (max-width: 34.375em) {
+  footer {
+    padding: 2.5rem;
+  }
+}
 
 .footer__logo {
   background-color: transparent;
@@ -512,6 +517,11 @@ footer {
   padding: 5rem;
   background-color: transparent;
   text-align: right;
+}
+@media (max-width: 34.375em) {
+  .contents__card {
+    padding: 2.5rem;
+  }
 }
 .contents__card:not(:last-child) {
   margin-bottom: 5rem;
