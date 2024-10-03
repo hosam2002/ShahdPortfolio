@@ -257,9 +257,19 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 40em) {
+  header {
+    padding: 0 2.5rem;
+  }
+}
 
 .header__logo > img {
   width: 10rem;
+}
+@media (max-width: 40em) {
+  .header__logo > img {
+    width: 8rem;
+  }
 }
 .header__nav {
   display: flex;
@@ -278,6 +288,12 @@ header {
   text-decoration: none;
   color: #1E293B;
   transition: transform 0.4s ease-in-out;
+}
+@media (max-width: 40em) {
+  .header__link {
+    width: 3rem;
+    height: 3rem;
+  }
 }
 .header__link > i {
   font-size: 1.8rem;
